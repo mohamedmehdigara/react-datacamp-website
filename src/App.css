@@ -263,3 +263,55 @@ section {
 }
 
 /* TODO: Add more specific styles for other elements and sections */
+/* Add CSS styles for the Pricing page here */
+.pricing-container {
+  padding: 20px;
+}
+
+.pricing-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.plans-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plan {
+  flex: 1;
+  max-width: 300px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.plan h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.plan-price {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.plan-special-price {
+  font-size: 14px;
+  color: #ff6f61;
+}
+
+.plan ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.plan li {
+  margin: 5px 0;
+}
