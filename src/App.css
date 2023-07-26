@@ -315,3 +315,115 @@ section {
 .plan li {
   margin: 5px 0;
 }
+
+/* Add CSS styles for the Business page here */
+.business-container {
+  padding: 20px;
+}
+
+.business-header {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.business-intro {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.support-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.support-section ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.stats-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stats-section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Add CSS styles to make the Universities page look similar to DataCamp */
+.universities-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.universities-container h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.universities-container p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.universities-container img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.universities-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.universities-logos img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.universities-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.universities-container ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.universities-container li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.universities-container .stats-section {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.universities-container .stats-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.universities-container .stats-section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Add more CSS styles as needed to match the rest of the page */
+
+

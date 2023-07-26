@@ -9,7 +9,9 @@ import CourseDetail from './components/CourseDetail';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import NotFound from './pages/NotFound';
-import Pricing from './components/Pricing';
+import Pricing from './pages/Pricing';
+import Business from './pages/Business';
+import Universities from './pages/Universities';
 import './App.css';
 
 const App = () => {
@@ -24,6 +26,10 @@ const App = () => {
         <Route exact path="/login" element={<Login/>} />
         <Route exact path="/register" element={<Register/>} />
         <Route exact path="/pricing" element={<Pricing/>} />
+        <Route exact path="/business" element={<Business/>} />
+        <Route exact path="/universities" element={<Universities/>} /> {/* Add the route for Universities */}
+
+
 
         <Route element={<NotFound/>} />
       </Routes>
