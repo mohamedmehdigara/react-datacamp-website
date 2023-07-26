@@ -1,29 +1,28 @@
 import React from 'react';
-import logo from '../assets/logo.png'; // Replace this with the path to your logo image
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header>
-      <div className="container">
-        <div className="logo">
-          <img src={logo} alt="DataCamp Logo" />
+      <div className="header-container">
+        <div className="header-left">
+          <Link to="/" className="logo">
+            DataCamp
+          </Link>
+          <span className="we-are-hiring">We are hiring</span>
         </div>
-        <nav>
+        <nav className="header-middle">
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/courses">Courses</a></li>
-            <li><a href="/pricing">Pricing</a></li>
-            {/* Add more navigation links as needed */}
+            <li><Link to="/">Explore</Link></li>
+            <li><Link to="/">Pricing</Link></li>
+            <li><Link to="/">Business</Link></li>
+            <li><Link to="/">Universities</Link></li>
           </ul>
         </nav>
-        <div className="search-bar">
-          <input type="text" placeholder="Search for courses" />
-          <button>Search</button>
-        </div>
-        <div className="user-profile">
-          {/* Assuming you have a user avatar image */}
-          <img src="user-avatar.jpg" alt="User Avatar" />
-          <span>John Doe</span>
+        <div className="header-right">
+          <input type="text" placeholder="Search" />
+          <button className="sign-in-button">Sign in</button>
+          <button className="get-started-button">Get started</button>
         </div>
       </div>
     </header>
